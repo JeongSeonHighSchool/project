@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(90deg, pink 30%, aqua );
+}
+#video1{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    margin-left :490px;
+    margin-right: 0px;
+    margin-top : 25px;
+    display : block;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+#video1:active{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
+
+.title{
+    margin-left :auto;
+    margin-right: auto;
+    margin-top : 100px;
+    display : block;
+    text-align: center;
+    border: 10px dotted white;
+    background : linear-gradient(09deg, black 20%, white);
+    color: white;
+    font-size: 35px;
+    width: 750px;
+    height: 200px;
+}
+.garbageIsland{
+
+    border: 1px solid rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    position: absolute;
+    left: 410px;
+    top: 470px;
+}
+#ad{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left :700px;
+    margin-right: 0px;
+    margin-top : -100px;
+    display : block;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+#ad:active{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
