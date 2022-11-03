@@ -29,11 +29,17 @@ body{
     display : block;
     text-align: center;
     border: 10px dotted white;
+    border-radius: 10px;
     background : linear-gradient(09deg, black 20%, white);
     color: white;
     font-size: 35px;
     width: 750px;
     height: 200px;
+}
+.f_g{
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .garbageIsland{
     position: absolute;
@@ -67,7 +73,7 @@ body{
 .drone{
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    margin-left :calc(50% + 300px);
+    margin-left :calc(50% + 320px);
     display : block;
     width: 300px;
     height: 200px;

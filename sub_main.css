@@ -1,18 +1,19 @@
 body{
-    background: linear-gradient(90deg, pink 30%, aqua );
+    background: linear-gradient(90deg, rgb(10, 9, 9) 38%, rgb(241, 31, 31));
+    
 }
 .back{
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
     border-radius: 10px;
-    margin-left: calc(50% - 240px);
+    margin-left: calc(50% - 75px);
     margin-right: 0px;
     display : block;
     width: 150px;
     height: 100px;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: calc(15%);
 }
 .back:active{
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -20,4 +21,65 @@ body{
     border-radius: 10px;
     width: 150px;
     height: 100px;
+}
+.rocket1{
+    
+    position: absolute;
+    margin-left: 0;
+    margin-top: calc(50% - 400px);
+    width: 300px;
+    height: 300px;
+}
+.rocket2{
+    
+    position: absolute;
+    margin-left:78%;
+    margin-top: calc(50% - 400px);
+    width: 300px;
+    height: 300px;
+}
+.blackHole{
+    position: absolute;
+    margin-left: 0;
+    height: 250px;
+    width: 350px;
+}
+.Sun{
+    position: absolute;
+    margin-left:78%;
+    width: 300px;
+    height: 280px;
+    
+    
+}
+.gemul_1{
+    position: absolute;
+    margin-left: 0;
+    margin-top: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+}
+.gemul_2{
+    position: absolute;
+    margin-left:78%;
+    margin-top: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+}
+.comment{
+    margin-left :auto;
+    margin-right: auto;
+    margin-top : calc(10%-100px);
+    display : block;
+    text-align: center;
+    border: 10px double white;
+    background : linear-gradient(09deg, rgb(101, 162, 231) 20%, rgb(78, 25, 223));
+    font-size: 29px;
+    width: 650px;
+    height: 170px;
+}
+.font{
+    background: linear-gradient(to right, white ,black 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
