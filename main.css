@@ -2,16 +2,17 @@ body{
     background: linear-gradient(90deg, pink 30%, aqua );
 }
 #video1{
+    position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
     border-radius: 10px;
-    margin-left :490px;
+    margin-left: calc(50% - 240px);
     margin-right: 0px;
-    margin-top : 25px;
     display : block;
     width: 150px;
     height: 100px;
     cursor: pointer;
+    margin-top: 50px;
 }
 #video1:active{
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -35,26 +36,26 @@ body{
     height: 200px;
 }
 .garbageIsland{
-
+    position: absolute;
     border: 1px solid rgba(red, green, blue, alpha);
     border-radius: 10px;
     width: 640px;
     position: absolute;
-    left: 410px;
-    top: 470px;
+    margin-left: calc(50% - 320px);
+    margin-top: 200px;
 }
 #ad{
+    position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
     font-size: 12px;
     border-radius: 10px;
-    margin-left :700px;
-    margin-right: 0px;
-    margin-top : -100px;
+    margin-left: calc(50% + 90px);
     display : block;
     width: 150px;
     height: 100px;
     cursor: pointer;
+    margin-top: 50px;
 }
 #ad:active{
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -64,11 +65,30 @@ body{
     height: 100px;
 }
 .drone{
+    position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    margin-left :1100px;
-    margin-right: auto;
-    margin-top : -120px;
+    margin-left :calc(50% + 300px);
     display : block;
     width: 300px;
     height: 200px;
+}
+#change{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: calc(50% + 325px);
+    display : block;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 210px;
+}
+#change:active{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
 }

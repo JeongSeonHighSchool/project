@@ -4,3 +4,6 @@ function video(){
 function docs(){
     window.open("https://docs.google.com/forms/d/1iav-6SwpgdYI3K-Yo4-Ka18THNo53jPSVa9HWcVqwco/edit?pli=1");
 }
+function sub(){
+    window.location = "sub.html";
+}

@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(90deg, pink 30%, aqua );
+}
+.back{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    margin-left: calc(50% - 240px);
+    margin-right: 0px;
+    display : block;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.back:active{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
