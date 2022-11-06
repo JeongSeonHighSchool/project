@@ -28,7 +28,7 @@ body{
     margin-top : 100px;
     display : block;
     text-align: center;
-    border: 10px dotted white;
+    border: 10px double white;
     border-radius: 10px;
     background : linear-gradient(09deg, black 20%, white);
     color: white;
@@ -73,6 +73,7 @@ body{
 .drone{
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     margin-left :calc(50% + 320px);
     display : block;
     width: 300px;
@@ -97,4 +98,14 @@ body{
     border-radius: 10px;
     width: 150px;
     height: 100px;
+}
+.infinity{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-left :0;
+    margin-top: calc(0% - 310px);
+    display : block;
+    width: 200px;
+    height: 200px;
 }
