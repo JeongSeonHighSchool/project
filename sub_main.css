@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(90deg, rgb(10, 9, 9) 38%, rgb(241, 31, 31));
+    background: linear-gradient(90deg, rgb(15, 21, 80)20% , rgb(0, 0, 0));
     
 }
 .back{
@@ -23,7 +23,7 @@ body{
     height: 100px;
 }
 .rocket1{
-    
+    border: 1px solid rgba(0, 0, 0, 0);
     position: absolute;
     margin-left: 0;
     margin-top: calc(50% - 550px);
@@ -31,7 +31,7 @@ body{
     height: 300px;
 }
 .rocket2{
-    
+    border: 1px solid rgba(0, 0, 0, 0);
     position: absolute;
     margin-left:78%;
     margin-top: calc(50% - 550px);
@@ -39,20 +39,23 @@ body{
     height: 300px;
 }
 .blackHole{
+    border: 1px solid rgba(0, 0, 0, 0);
     position: absolute;
     margin-left: 0;
     height: 250px;
     width: 350px;
 }
 .Sun{
+    border: 1px solid rgba(0, 0, 0, 0);
     position: absolute;
-    margin-left:78%;
+    margin-left: calc(78%);
     width: 300px;
     height: 280px;
     
     
 }
 .gemul_1{
+    border: 1px solid rgba(0, 0, 0, 0);
     position: absolute;
     margin-left: 0;
     margin-top: calc(50% - 300px);
@@ -60,6 +63,7 @@ body{
     height: 300px;
 }
 .gemul_2{
+    border: 1px solid rgba(0, 0, 0, 0);
     position: absolute;
     margin-left:78%;
     margin-top: calc(50% - 300px);
