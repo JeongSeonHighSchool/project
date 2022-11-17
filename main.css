@@ -49,6 +49,7 @@ body{
     position: absolute;
     margin-left: calc(50% - 320px);
     margin-top: 200px;
+    cursor: pointer;
 }
 #ad{
     position: absolute;
