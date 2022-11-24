@@ -170,7 +170,7 @@ body{
         position: absolute;
         border: 1px solid rgba(red, green, blue, alpha);
         border-radius: 10px;
-        width: 500px;
+        width: 450px;
         position: absolute;
         margin-left: calc(50% - 270px);
         margin-top: 200px;
@@ -238,7 +238,7 @@ body{
         border: 1px solid rgba(0, 0, 0, 0);
         border-radius: 10px;
         margin-left :0;
-        margin-top: -195px;
+        margin-top: -210px;
         display : block;
         width: 100px;
         height: 100px;
