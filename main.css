@@ -120,7 +120,7 @@ body{
     width: 200px;
     height: 200px;
 }
-@media (max-width: 250px) {
+@media (max-width: 600px) {
     body{
         background-color: aqua;
      
@@ -149,7 +149,8 @@ body{
     }
     
     .title{
-        margin-left :calc(50% + 50px);
+        margin-left :auto;
+        margin-right: auto;
     
         margin-top : 100px;
         display : block;
@@ -171,10 +172,10 @@ body{
         position: absolute;
         border: 1px solid rgba(red, green, blue, alpha);
         border-radius: 10px;
-        width: 450px;
+        width: 350px;
         position: absolute;
-        margin-left: calc(50% - 250px);
-        margin-top: 200px;
+        margin-left: calc(50% - 200px);
+        margin-top: 260px;
         cursor: pointer;
     }
     #ad{
@@ -208,8 +209,8 @@ body{
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 10px;
-        margin-left :calc(50% + 200px);
-        margin-top: 80px;
+        margin-left :calc(50% + 150px);
+        margin-top: 150px;
         display : block;
         width: 200px;
         height: 100px;
@@ -220,12 +221,140 @@ body{
         box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
         font-size: 8px;
         border-radius: 10px;
-        margin-left: calc(50% + 225px);
+        margin-left: calc(50% + 160px);
         display : block;
         width: 125px;
         height: 75px;
         cursor: pointer;
-        margin-top: 210px;
+        margin-top: 260px;
+        font-size: 13px;
+    }
+    #change:active{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 10px;
+        width: 125px;
+        height: 75px;
+        font-size: 13px;
+    }
+    .infinity{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin-left :0;
+        margin-top: -210px;
+        display : block;
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width: 150px) {
+    body{
+        background-color: aqua;
+     
+    }
+    #video1{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+        border-radius: 10px;
+        margin-left: calc(50% - 200px);
+        margin-right: 0px;
+        display : block;
+        width: 125px;
+        height: 75px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    #video1:active{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 125px;
+        height: 75px;
+    }
+    
+    .title{
+        margin-left :auto;
+        margin-right: auto;
+    
+        margin-top : 100px;
+        display : block;
+        text-align: center;
+        border: 10px double white;
+        border-radius: 10px;
+        background : linear-gradient(09deg, black 20%, white);
+        color: white;
+        font-size: 20px;
+        width: 400px;
+        height: 100px;
+    }
+    .f_g{
+        background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .garbageIsland{
+        position: absolute;
+        border: 1px solid rgba(red, green, blue, alpha);
+        border-radius: 10px;
+        width: 350px;
+        position: absolute;
+        margin-left: calc(50% - 200px);
+        margin-top: 260px;
+        cursor: pointer;
+    }
+    #ad{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+        font-size: 12px;
+        border-radius: 10px;
+        margin-left: calc(50% + 60px);
+        display : block;
+        width: 125px;
+        height: 75px;
+        cursor: pointer;
+        margin-top: 50px;
+        font-size: 12px;
+        
+    }
+    #ad:active{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 10px;
+        width: 125px;
+        height: 75px;
+        font-size: 12px;
+    }
+    #ad:hover{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 8px;
+    }
+    .drone{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-left :calc(50% + 150px);
+        margin-top: 150px;
+        display : block;
+        width: 200px;
+        height: 100px;
+    }
+    #change{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+        font-size: 8px;
+        border-radius: 10px;
+        margin-left: calc(50% + 160px);
+        display : block;
+        width: 125px;
+        height: 75px;
+        cursor: pointer;
+        margin-top: 260px;
         font-size: 13px;
     }
     #change:active{
