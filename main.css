@@ -120,10 +120,10 @@ body{
     width: 200px;
     height: 200px;
 }
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     body{
         background-color: aqua;
-        max-width: 550px;
+     
     }
     #video1{
         position: absolute;
@@ -149,7 +149,7 @@ body{
     }
     
     .title{
-        margin-left :calc(50% + 100px);
+        margin-left :calc(50% + 50px);
     
         margin-top : 100px;
         display : block;
