@@ -21,7 +21,9 @@ body{
     width: 150px;
     height: 100px;
 }
-
+#video1:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .title{
     margin-left :auto;
     margin-right: auto;
@@ -71,6 +73,10 @@ body{
     width: 150px;
     height: 100px;
 }
+#ad:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11.5px;
+}
 .drone{
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -100,6 +106,10 @@ body{
     width: 150px;
     height: 100px;
 }
+#change:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
 .infinity{
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0);
@@ -109,4 +119,128 @@ body{
     display : block;
     width: 200px;
     height: 200px;
+}
+@media (max-width: 500px) {
+    body{
+        background: linear-gradient(45deg, pink 30%, aqua );
+    }
+    #video1{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+        border-radius: 10px;
+        margin-left: calc(50% - 240px);
+        margin-right: 0px;
+        display : block;
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    #video1:active{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+    }
+    #vidio:hover{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 10px;
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+    }
+    
+    .title{
+        margin-left :auto;
+        margin-right: auto;
+        margin-top : 100px;
+        display : block;
+        text-align: center;
+        border: 10px double white;
+        border-radius: 10px;
+        background : linear-gradient(09deg, black 20%, white);
+        color: white;
+        font-size: 15px;
+        width: 450px;
+        height: 100px;
+    }
+    .f_g{
+        background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .garbageIsland{
+        position: absolute;
+        border: 1px solid rgba(red, green, blue, alpha);
+        border-radius: 10px;
+        width: 500px;
+        position: absolute;
+        margin-left: calc(50% - 320px);
+        margin-top: 200px;
+        cursor: pointer;
+    }
+    #ad{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+        font-size: 12px;
+        border-radius: 10px;
+        margin-left: calc(50% + 90px);
+        display : block;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+    #ad:active{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+    }
+    .drone{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-left :calc(50% + 320px);
+        display : block;
+        width: 200px;
+        height: 100px;
+    }
+    #change{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
+        font-size: 12px;
+        border-radius: 10px;
+        margin-left: calc(50% + 325px);
+        display : block;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        margin-top: 210px;
+    }
+    #change:active{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+    }
+    .infinity{
+        position: absolute;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        margin-left :0;
+        margin-top: -310px;
+        display : block;
+        width: 100px;
+        height: 100px;
+    }
 }
