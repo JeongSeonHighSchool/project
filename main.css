@@ -120,21 +120,21 @@ body{
     width: 200px;
     height: 200px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     body{
-        background: linear-gradient(45deg, pink 30%, aqua );
+        background-color: aqua;
     }
     #video1{
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.1);
         box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
         border-radius: 10px;
-        margin-left: calc(50% - 240px);
+        margin-left: calc(50% - 200px);
         margin-right: 0px;
         display : block;
         width: 100px;
         height: 50px;
-        font-size: 15px;
+        font-size: 10px;
         cursor: pointer;
         margin-top: 50px;
     }
@@ -142,15 +142,7 @@ body{
         border: 1px solid rgba(0, 0, 0, 0.1);
         box-shadow: none;
         border-radius: 10px;
-        font-size: 15px;
-        width: 100px;
-        height: 50px;
-    }
-    #vidio:hover{
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        box-shadow: none;
-        border-radius: 10px;
-        font-size: 15px;
+        font-size: 10px;
         width: 100px;
         height: 50px;
     }
@@ -165,8 +157,8 @@ body{
         border-radius: 10px;
         background : linear-gradient(09deg, black 20%, white);
         color: white;
-        font-size: 15px;
-        width: 450px;
+        font-size: 20px;
+        width: 400px;
         height: 100px;
     }
     .f_g{
@@ -180,7 +172,7 @@ body{
         border-radius: 10px;
         width: 500px;
         position: absolute;
-        margin-left: calc(50% - 320px);
+        margin-left: calc(50% - 270px);
         margin-top: 200px;
         cursor: pointer;
     }
@@ -190,12 +182,14 @@ body{
         box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
         font-size: 12px;
         border-radius: 10px;
-        margin-left: calc(50% + 90px);
+        margin-left: calc(50% + 60px);
         display : block;
         width: 100px;
         height: 50px;
         cursor: pointer;
         margin-top: 50px;
+        font-size: 8px;
+        
     }
     #ad:active{
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -203,12 +197,18 @@ body{
         border-radius: 10px;
         width: 100px;
         height: 50px;
+        font-size: 7px;
+    }
+    #ad:hover{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 8px;
     }
     .drone{
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 10px;
-        margin-left :calc(50% + 320px);
+        margin-left :calc(50% + 222px);
+        margin-top: 80px;
         display : block;
         width: 200px;
         height: 100px;
@@ -217,9 +217,9 @@ body{
         position: absolute;
         border: 1px solid rgba(0, 0, 0, 0.1);
         box-shadow: inset -1.2em -1.5em rgba(0, 0, 0, 0.062);
-        font-size: 12px;
+        font-size: 8px;
         border-radius: 10px;
-        margin-left: calc(50% + 325px);
+        margin-left: calc(50% + 225px);
         display : block;
         width: 100px;
         height: 50px;
@@ -238,7 +238,7 @@ body{
         border: 1px solid rgba(0, 0, 0, 0);
         border-radius: 10px;
         margin-left :0;
-        margin-top: -310px;
+        margin-top: -195px;
         display : block;
         width: 100px;
         height: 100px;
