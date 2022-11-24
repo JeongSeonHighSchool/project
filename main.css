@@ -287,9 +287,9 @@ body{
         border-radius: 10px;
         background : linear-gradient(09deg, black 20%, white);
         color: white;
-        font-size: 20px;
-        width: 200px;
-        height: 50px;
+        font-size: 15px;
+        width: 150px;
+        height: 30px;
     }
     .f_g{
         background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 255));
