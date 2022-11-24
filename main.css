@@ -248,7 +248,7 @@ body{
         height: 100px;
     }
 }
-@media (max-width: 210px) {
+@media (max-width: 250px) {
     body{
         background-color: aqua;
      
